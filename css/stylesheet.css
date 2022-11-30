@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
 *{
     font-family: 'Poppins', sans-serif !important;
 }
@@ -16,27 +18,27 @@
 .texto1{
 
     padding-top: 20px;
+    font-size: 25px;
 }
 
 .texto2{
 
-    font-size: 19px;
+    font-size: 26px;
 }
 
 .texto3{
 
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
 }
 
-
-
 body{
-    background:  var(--Grayish-Blue) !important; 
+    background-color:  hsl(0, 0%, 98%) !important; 
 }
 
 .imagen{
 width: 50px;
+background-position: bottom;
 }
 
 .titulo{
@@ -47,5 +49,33 @@ padding-top: 20px;
 .descripcion{
 font-size: 11px;
 
+}
+
+.supervisor{
+
+border-top: 4px solid hsl(180, 62%, 55%);
+
+}
+
+.builder{
+
+border-top: 4px solid hsl(0, 78%, 62%);
+
+}
+
+.karma{
+
+    border-top: 4px solid hsl(34, 97%, 64%);
+    
+    }
+
+.calculator{
+
+ border-top: 4px solid hsl(212, 86%, 64%) ;
+        
+}
+
+.container{
+    max-width: 375px;
 }
 
