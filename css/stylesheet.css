@@ -79,3 +79,22 @@ border-top: 4px solid hsl(0, 78%, 62%);
     max-width: 375px;
 }
 
+@media (min-width: 990px) {
+
+
+
+.botones{
+
+    width: 100%;
+}
+
+.builder ,.karma ,.supervisor ,.calculator{
+    width: 300px;
+    
+}
+
+
+
+
+}
+
