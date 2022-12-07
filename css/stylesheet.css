@@ -79,22 +79,39 @@ border-top: 4px solid hsl(0, 78%, 62%);
     max-width: 375px;
 }
 
-@media (min-width: 990px) {
 
+@media (min-width: 1200px){
 
+.calculator,.karma,.supervisor,.builder{
 
-.botones{
+width: 270px;
 
-    width: 100%;
 }
 
-.builder ,.karma ,.supervisor ,.calculator{
-    width: 300px;
+}
+
+@media (min-width: 1400px){
+
+.calculator,.karma,.supervisor,.builder{
+    
+width: 300px;
     
 }
 
+}
 
+@media (min-width: 1420px){
 
+.builder{
+
+transform: translateY(130px);
 
 }
 
+.karma {
+
+transform: translateY(-130px);
+
+}
+
+}
